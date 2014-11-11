@@ -1,0 +1,43 @@
+<Alloy autoStyle="true">
+	
+	<Window id="menu" role="leftWindow">
+
+		<TableView id="innermenu">
+			
+			<TableViewRow class="menuitem" tab="tab_news">
+				<View class="viewitem">
+        			<Label icon="fa-newspaper-o" />
+        			<Widget id="fa" src="com.mattmcfarland.fontawesome"/>
+        			<Label text="News" />
+				</View>				
+			</TableViewRow>
+			
+			<TableViewRow class="menuitem" tab="tab_product">
+				<View class="viewitem">
+        			<Label icon="fa-suitcase" />
+        			<Widget id="fa" src="com.mattmcfarland.fontawesome"/>					
+					<Label text="Products" />
+				</View>				
+			</TableViewRow>
+			
+			<TableViewRow class="menuitem" tab="tab_store">
+				<View class="viewitem">
+        			<Label icon="fa-shopping-cart" />
+        			<Widget id="fa" src="com.mattmcfarland.fontawesome"/>						
+					<Label text="Store" />
+				</View>				
+			</TableViewRow>
+			
+			<TableViewRow class="menuitem" tab="tab_user">
+				<View class="viewitem">
+        			<Label icon="fa-user" />
+        			<Widget id="fa" src="com.mattmcfarland.fontawesome"/>					
+					<Label text="User" />
+				</View>				
+			</TableViewRow>
+							
+		</TableView>
+		
+	</Window>
+	
+</Alloy>

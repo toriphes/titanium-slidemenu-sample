@@ -1,0 +1,12 @@
+"Window" : {
+	backgroundColor: "#efefef",
+	tabBarHidden: true
+},
+
+"#drawer" : {
+    openDrawerGestureMode: "OPEN_MODE_ALL",
+    leftDrawerWidth: 260,
+    animationVelocity: 1000,
+	closeDrawerGestureMode: "CLOSE_MODE_ALL",
+	animationMode: "ANIMATION_PARALLAX_FACTOR_3",    
+},

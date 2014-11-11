@@ -1,0 +1,11 @@
+titanium-slidemenu-sample
+============================
+
+Simple slide menu example project.
+
+### Modules
+- https://github.com/viezel/NappDrawer
+
+### Widgets
+- https://github.com/fokkezb/nl.fokkezb.drawer
+- https://github.com/MattMcFarland/com.mattmcfarland.fontawesome

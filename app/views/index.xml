@@ -1,0 +1,30 @@
+<Alloy>
+    <Widget id="drawer" src="nl.fokkezb.drawer">
+        
+        <Require src="menu" />
+        
+        <TabGroup id="tabgroup" role="centerWindow">
+	        <Tab id="news_tab" title="News" class="tab">
+	            <Window title="Tab news">
+					<Label text="Tab news, click me" onClick="open" />
+	            </Window>
+	        </Tab>
+	        <Tab id="product_tab" title="Products" class="tab">
+	            <Window title="Tab products">
+	            	<Label text="Tab products" />
+	            </Window>
+	        </Tab>
+	        <Tab id="store_tab" title="Store" class="tab">
+	            <Window title="Tab store">
+					<Label text="Tab store" />
+	            </Window>
+	        </Tab>	
+	        <Tab id="user_tab" title="User" class="tab">
+	            <Window title="Tab user">
+	            	<Label text="Tab user" />
+	            </Window>
+	        </Tab>
+        </TabGroup>
+        
+    </Widget>
+</Alloy>

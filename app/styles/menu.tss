@@ -1,0 +1,41 @@
+"#menu" : {
+	backgroundColor: "#434343"
+},
+
+"#innermenu" : {
+	backgroundColor: "transparent",
+	separatorColor : "transparent",
+	top: 20
+},
+
+".viewitem" : {
+	backgroundColor: "#434343",
+	borderRadius: 3,
+	layout: "horizontal",
+	left: 10,
+	right: 10,
+	top: 5,
+	bottom: 5
+},
+
+".active" : {
+	backgroundColor: "#292929",
+},
+
+".menuitem" : {
+	height: 50,
+},
+
+"TableViewRow" : {
+	backgroundSelectedColor: "transparent"
+},
+
+"Label" : {
+	color: "#a2a2a2",
+	font: {
+		fontWeight: "bold",
+		fontSize: 16
+	},
+	left: 10,
+	height: Titanium.UI.FILL
+}
